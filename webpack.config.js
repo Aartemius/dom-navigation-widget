@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   output: {
-    path: path.join(__dirname, "/dist"),
+    path: path.join(__dirname, "/public/dist"),
     filename: "bundle.js",
     library: "DOMNavigator",
     libraryTarget: "umd",
@@ -15,7 +15,7 @@ module.exports = {
   ],
   devServer: {
     port: 3030,
-    allowedHosts: '0.0.0.0',
+    allowedHosts: 'all',
     compress: true,
   },
   module: {
