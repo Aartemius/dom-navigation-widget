@@ -11,9 +11,9 @@ const App = () => {
   return (
     <div className="embed-dom-modal">
       {isModalVisible ? (
-        <DomTree onOptionClick={closeModal} />
+        <DomTree onOptionClick={ closeModal } />
       ) : (
-        <TreeToggler onClick={openModal} />
+        <TreeToggler onClick={ openModal } />
       )}
     </div>
   );
