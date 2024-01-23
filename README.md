@@ -23,14 +23,20 @@ Embed widget renders the DOM tree of a webpage for easier navigation by DOM.
 
 ### Usage
 
-2 ways to embed the widget to the website:
+Ways to embed the widget to the website:
+
 1. 
+-On your website add following script to the end of <body> tag: <script src="https://funny-pudding-9d912e.netlify.app/public/dist/bundle.js"></script>
+-Add following markup to the start of your <body> tag: <div id="dom-navigation-container"></div>
+-Run your website
+
+2. 
 -Run npm run serve in terminal in your project root directory to start local server
 -In your local website add following script tag to the end of your <body> tag: <script src="http://localhost:3030/bundle.js"></script>
 -Add following markup to the start of your <body> tag: <div id="dom-navigation-container"></div>
 -Run your website
 
-2. 
+3. 
 -Copy file bundle.js from project's /public/dist folder 
 -Add this file to your website and add following script to the end of your <body> tag: <script src="your/file/directory/bundle.js"></script> . Replace "your/file/directory/bundle.js" with actual file path.
 -Add following markup to the start of your <body> tag: <div id="dom-navigation-container"></div>
